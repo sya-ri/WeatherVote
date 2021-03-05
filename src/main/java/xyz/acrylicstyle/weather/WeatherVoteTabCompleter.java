@@ -6,6 +6,7 @@ import org.bukkit.command.TabCompleter;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import util.CollectionList;
+import util.ICollectionList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,7 +21,7 @@ public class WeatherVoteTabCompleter implements TabCompleter {
         return emptyList;
     }
 
-    private CollectionList<String> filterArgsList(CollectionList<String> list, String s) {
+    private ICollectionList<String> filterArgsList(CollectionList<String> list, String s) {
         return list.filter(s2 -> s2.toLowerCase().startsWith(s.toLowerCase()));
     }
 }

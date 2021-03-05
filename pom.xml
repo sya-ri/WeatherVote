@@ -45,6 +45,10 @@
             <id>acrylic-repo</id>
             <url>https://repo.acrylicstyle.xyz/</url>
         </repository>
+        <repository>
+            <id>acrylic-repo2</id>
+            <url>https://repo2.acrylicstyle.xyz/</url>
+        </repository>
     </repositories>
     <dependencies>
         <dependency>
@@ -62,7 +66,7 @@
         <dependency>
             <groupId>xyz.acrylicstyle</groupId>
             <artifactId>api</artifactId>
-            <version>0.5.0</version>
+            <version>0.7.7</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
